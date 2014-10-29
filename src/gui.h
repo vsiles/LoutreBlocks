@@ -1,6 +1,7 @@
-#ifndef __GUI_H__
-#define __GUI_H__
+#ifndef _GUI_H_
+#define _GUI_H_
 
+/* The GUI is GTK based */
 #include <gtk/gtk.h>
 #include <gtk/gtkgl.h>
 #include <gdk/gdkkeysyms.h>
@@ -11,4 +12,5 @@ void end_gui( void );
 void start_gui( void );
 
 void prepare_gui( int new_level);
-#endif//__GUI_H__
+
+#endif /* _GUI_H_ */

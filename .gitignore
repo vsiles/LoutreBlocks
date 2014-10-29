@@ -1,3 +1,6 @@
+# Vim tag file
+tags
+
 # Object files
 *.o
 *.ko
